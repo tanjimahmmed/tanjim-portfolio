@@ -143,6 +143,9 @@
     .service_icon i.fa {
         font-size: 35px;
     }
+    .avatar_hero img {
+        width: 150px;
+    }
     .single_services {
         padding: 5px;
     }
@@ -364,6 +367,9 @@
         .por-text-details a {
         font-size: 13px;
         }
+        .avatar_hero img {
+            width: 130px;
+        }
     
 }
 /* Mobile Layout: 320px. */
@@ -444,6 +450,9 @@
     }
     .is-sticky .header_area .main_menu ul li a, .is-sticky .header_area .logo a {
         font-size: 12px;
+    }
+    .avatar_hero img {
+        width: 120px;
     }
     .white-popup {
     max-width: 95%;
