@@ -189,6 +189,7 @@ img{
     border: 2px solid #efefef;
     width: 26px;
     border-radius: 14px;
+    transform: translateY(-100px);
 }
 .home_s_btn .dot {
     display: block;
