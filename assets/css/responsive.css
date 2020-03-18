@@ -296,8 +296,9 @@
     .slide_item_wrapper .typer_title {
         font-size: 20px;
     }
-    .home_s_btn {
-        bottom: -50%;
+     .home_s_btn {
+        bottom: -25%;
+        transform: translate(0, 20px);
     }
     .single_services.bordered {
         border-right: none;
@@ -390,8 +391,9 @@
         right: -75%;
         width: 75%;
     }
-    .home_s_btn {
-        bottom: -140px;
+     .home_s_btn {
+        bottom: -25%;
+        transform: translate(0, 20px);
     }
     .single_services.bordered {
         border-right: none;
