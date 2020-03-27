@@ -149,7 +149,7 @@
         topSpacing: 0,
      });
      // -- popup js -- //
-    $('#inline-popups,#inline-popups-2,#inline-popups-3,#inline-popups-4,#inline-popups-5,#inline-popups-6,#inline-popups-7,#inline-popups-8,#inline-popups-9,#inline-popups-10').magnificPopup({
+    $('#inline-popups,#inline-popups-2,#inline-popups-3,#inline-popups-4,#inline-popups-5,#inline-popups-6,#inline-popups-7,#inline-popups-8,#inline-popups-9,#inline-popups-10,#inline-popups-11,#inline-popups-12').magnificPopup({
         delegate: 'a',
         removalDelay: 400, //delay removal by X to allow out-animation
         callbacks: {
