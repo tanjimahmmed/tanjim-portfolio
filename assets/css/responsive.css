@@ -296,9 +296,10 @@
     .slide_item_wrapper .typer_title {
         font-size: 20px;
     }
-    .home_s_btn {
-        bottom: -25%;
-        transform: translate(-15px, 20px);
+    .avatar_hero {
+        height: 140px;
+        width: 140px;
+        border: 5px solid rgba(255, 255, 255, 0.75);
     }
     .single_services.bordered {
         border-right: none;
@@ -344,9 +345,6 @@
     .contact_item .c_text {
         padding-left: 70px;
     }
-    .homepage_hero_area {
-        background-position: center left -194px;
-    }
     .is-sticky .header_area {
         padding: 14px 0;
     }
@@ -391,9 +389,10 @@
         right: -75%;
         width: 75%;
     }
-     .home_s_btn {
-        bottom: -25%;
-        transform: translate(-10px, 20px);
+    .avatar_hero {
+        height: 130px;
+        width: 130px;
+        border: 5px solid rgba(255, 255, 255, 0.75);
     }
     .single_services.bordered {
         border-right: none;
@@ -443,9 +442,6 @@
     }
     .single_portfolio_item {
         height: 280px;
-    }
-    .homepage_hero_area {
-        background-position: center left -246px;
     }
     .is-sticky .header_area {
         padding: 14px 0;
