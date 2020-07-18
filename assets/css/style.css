@@ -120,6 +120,10 @@ img{
     font-weight: 700;
 }
 
+.logo img {
+    max-width: 300px;
+}
+
 .main_menu ul {
     margin: 0;
     padding: 0;
@@ -916,18 +920,32 @@ ul {
 }
 
 .is-sticky .header_area {
-    padding: 20px 0;
+    padding: 5px 0;
 }
-
-.is-sticky .header_area .main_menu ul li a, .is-sticky .header_area .logo a {
+.is-sticky .header_area .main_menu ul li a,
+.is-sticky .header_area .logo a {
     color: #232323;
     font-size: 16px;
 }
-
-.is-sticky .header_area .main_menu ul li a, .is-sticky .header_area .logo a, .is-sticky .header_area, .header_area {
+.is-sticky .header_area .main_menu ul li a,
+.is-sticky .header_area .logo a,
+.is-sticky .header_area,
+.header_area,
+.is-sticky .header_area .logo .sticky_logo img {
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
 }
+.is-sticky .header_area .logo .without_sticky img {
+    display: none;
+}
+.sticky_logo img {
+    display: none;
+}
+.is-sticky .header_area .logo .sticky_logo img {
+    display: block;
+    max-width: 250px;
+}
+
 /* mainmenu hover css */
 .main_menu li a:after {
     position: absolute;
