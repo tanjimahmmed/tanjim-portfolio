@@ -369,6 +369,12 @@
         .avatar_hero img {
             width: 130px;
         }
+        .logo img {
+            max-width: 230px;
+        }
+        .is-sticky .header_area .logo .sticky_logo img {
+            max-width: 210px;
+        }
     
 }
 /* Mobile Layout: 320px. */
@@ -378,6 +384,12 @@
     }
     .logo a {
         font-size: 13px;
+    }
+    .logo img {
+        max-width: 230px;
+    }
+    .is-sticky .header_area .logo .sticky_logo img {
+        max-width: 200px;
     }
     .slide_item_wrapper h1 {
         font-size: 20px;
