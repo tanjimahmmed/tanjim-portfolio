@@ -941,6 +941,7 @@ ul {
 .sticky_logo img {
     display: none;
 }
+
 .is-sticky .header_area .logo .sticky_logo img {
     display: block;
     max-width: 250px;
