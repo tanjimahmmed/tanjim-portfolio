@@ -85,17 +85,6 @@
         });
     });
 
-    // -- isotope -- //
-
-    $(".portfolio_filter li").on('click', function() {
-        $(".portfolio_filter li").removeClass("active");
-        $(this).addClass("active");
-        var selector = $(this).attr('data-filter');
-        $(".portfolio_list").isotope({
-            filter: selector,
-        })
-    });
-    $(".portfolio_list").isotope();
 
     // -- magnific popup -- //
 
@@ -160,7 +149,7 @@
 
     // -- popup js -- //
 
-    $('#inline-popups,#inline-popups-2,#inline-popups-3,#inline-popups-4,#inline-popups-5,#inline-popups-6,#inline-popups-7,#inline-popups-8,#inline-popups-9,#inline-popups-10,#inline-popups-11,#inline-popups-12,#inline-popups-13,#inline-popups-14,#inline-popups-15,#inline-popups-16,#inline-popups-17,#inline-popups-18,#inline-popups-19').magnificPopup({
+    $('#inline-popups,#inline-popups-2,#inline-popups-3,#inline-popups-4,#inline-popups-5,#inline-popups-6,#inline-popups-7,#inline-popups-8,#inline-popups-9,#inline-popups-10,#inline-popups-11,#inline-popups-12,#inline-popups-13,#inline-popups-14,#inline-popups-15,#inline-popups-16,#inline-popups-17,#inline-popups-18,#inline-popups-19,#inline-popups-20').magnificPopup({
         delegate: 'a',
         removalDelay: 400, //delay removal by X to allow out-animation
         callbacks: {
@@ -178,10 +167,25 @@
     });
     wow.init();
     jQuery(window).load(function() {
-        if ($('#preloader').length) {
-            $('#preloader').delay(100).fadeOut('slow', function() {
+
+         // -- isotope -- //
+        $(".portfolio_filter li").on('click', function() {
+            $(".portfolio_filter li").removeClass("active");
+            $(this).addClass("active");
+            var selector = $(this).attr('data-filter');
+            $(".portfolio_list").isotope({
+                filter: selector,
+            })
+        });
+
+    $(".portfolio_list").isotope();
+
+        // -- loader -- //
+        if ($('#loading-wrap').length) {
+            $('#loading-wrap').delay(100).fadeOut('slow', function() {
                 $(this).remove();
             });
         }
+
     });
 }(jQuery));
